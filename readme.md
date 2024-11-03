@@ -1,14 +1,3 @@
-<style>
- .center{display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
- }
- .space{
-  margin-right: 15px;
-  margin-top: 5px
- }
- hr{
-  border: none; border-top: 1px solid grey;
- }
-  </style>
 <p align="center">
 <a target="_" href="https://github.com/emantggw"><img src="https://github.com/emantggw/emant_animation_js/raw/main/assets/screenshots/screenshot.gif"></a>
 </p>
@@ -32,7 +21,7 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 <br>
 
 <p style="margin-left: 30px">
-   📍<b> Addis Ababa, Kazanchis</b><br>
+   📍 Address:<b> Addis Ababa, Kazanchis</b><br>
    📧 Email: <a href="mailto: emantweb@gmail.com">emantweb@gmail</a><br>
    📞 Phone: <a href="tel:+251939977886">+251939977886</a><br>
    </p>
@@ -47,7 +36,8 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 ### 🔧 Current Projects:
 
 <div style="text-align: left;">
-<div class="center">
+<div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
+">
 <img src="assets/hulubeje_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;">
     <span>
 
@@ -57,9 +47,10 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
 
 </span>
 </div>
-<hr>
+<hr style="border: none; border-top: 1px solid grey;">
 
- <div class="center">
+ <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
+ ">
       <img src="assets/hulubeje_delivery_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;">
       <span>
 
@@ -68,9 +59,10 @@ Tech stack: <b>Flutter, Nestjs, Firebase</b>
 </span>
 
   </div>
-   <hr>
+  <hr style="border: none; border-top: 1px solid grey;">
 
- <div class="center">
+ <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
+ ">
       <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="50" style="margin-right: 10px;">
       <span>
 
@@ -80,9 +72,10 @@ Secure, user-friendly platform for investment management.
 </span>
 
   </div>
-   <hr>
+  <hr style="border: none; border-top: 1px solid grey;">
 
-<div class="center">
+<div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
+ ">
       <img src="assets/nexy_logo.png" alt="Nexy" width="50" style="margin-right: 10px;">
       <span>
 
@@ -93,29 +86,28 @@ Enabling parental oversight for students' progress tracking.
   </div>
 </div>
 <br/>
+<hr style="border: none; border-top: 1px solid grey;">
 
 ### 📦 Flutter Packages:
 
 - [**Animated Milestone**](https://pub.dev/packages/animated_milestone) - A customizable milestone/timeline package.
   <br>
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" width="100">
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" width="100">
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" width="100">
-  <hr>
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" width="100">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" width="100">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" width="100">
 
 - [**Animated React Button**](https://pub.dev/packages/animated_react_button) - Customizable animated reaction button..
   <br>
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart.gif" width="100">
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart_real_example.gif" width="300">
-
-  <hr>
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart.gif" width="100">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart_real_example.gif" width="300">
 
 - [**Confirmation Success**](https://pub.dev/packages/confirmation_success) - Interactive visuals for task confirmations.
   <br>
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" width="180">
-  <img class="space" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" width="180">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" width="180">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" width="180">
 
-  <hr>
+<br/>
+<hr style="border: none; border-top: 1px solid grey;">
 
 ### 🎮 Fun JavaScript Projects: From 2019
 
@@ -148,10 +140,16 @@ Enabling parental oversight for students' progress tracking.
   <br>
   <a target="_blank" href="https://github.com/emantggw/windows_booting_js"><img src="https://github.com/emantggw/windows_booting_js/raw/main/assets/screenshots/screenshot.gif" width="150" /> </a>
 
+<br/>
+<hr style="border: none; border-top: 1px solid grey;">
+
 ### 📝 Recent Articles
 
 <a target="_blank" href="https://medium.com/@emantggw/dry-principle-1d78900fb00e"><img src="assets/article_dry.png" alt="Dry Principle"></a>
 <a target="_blank" href="https://medium.com/@emantggw/what-should-we-consider-migrating-from-a-monolithic-application-to-a-distributed-architecture-2b0f2f8e06b2"><img src="assets/migrating_mon_to_dist.png" alt="Recent Article 1"></a>
+
+<br/>
+<hr style="border: none; border-top: 1px solid grey;">
 
 ### 🎉 Achievements
 
