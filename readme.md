@@ -73,7 +73,6 @@ Secure, user-friendly platform for investment management.
 
   </div>
   <hr style="border: none; border-top: 1px solid grey;">
-
 <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
  ">
       <img src="assets/nexy_logo.png" alt="Nexy" width="50" style="margin-right: 10px;">
@@ -92,9 +91,9 @@ Enabling parental oversight for students' progress tracking.
 
 - [**Animated Milestone**](https://pub.dev/packages/animated_milestone) - A customizable milestone/timeline package.
   <br>
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" width="100">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" width="100">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" width="100">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" width="200">
 
 - [**Animated React Button**](https://pub.dev/packages/animated_react_button) - Customizable animated reaction button..
   <br>
@@ -103,8 +102,8 @@ Enabling parental oversight for students' progress tracking.
 
 - [**Confirmation Success**](https://pub.dev/packages/confirmation_success) - Interactive visuals for task confirmations.
   <br>
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" width="180">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" width="180">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" width="210">
+  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" width="210">
 
 <br/>
 <hr style="border: none; border-top: 1px solid grey;">
