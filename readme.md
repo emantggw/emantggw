@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
- <a href="https://linkedin.com/ln/emantggw"><img src="https://img.shields.io/badge/linkedin-0b66c3?style=for-the-badge&logo=linkedin" alt="linkedin" /></a>&nbsp;
+ <a href="https://linkedin.com/in/emantggw"><img src="https://img.shields.io/badge/linkedin-0b66c3?style=for-the-badge&logo=linkedin" alt="linkedin" /></a>&nbsp;
 <a href="https://t.me/emantggw"><img src="https://img.shields.io/badge/telegram-3390ec?style=for-the-badge&logo=telegram&logoColor=white" alt="medium" /></a>&nbsp;
 <a href="https://medium.com/@emantggw"><img src="https://img.shields.io/badge/medium-242424?style=for-the-badge&logo=medium" alt="medium" /></a>&nbsp;
 <a href="https://dev.to/emantggw"><img src="https://img.shields.io/badge/dev.to-000000?style=for-the-badge&logo=dev.to&logoColor=white" alt="dev.to" /></a>&nbsp;
