@@ -1,5 +1,5 @@
 <p align="center">
-<a target="_" href="https://github.com/emantggw"><img src="https://github.com/emantggw/emant_animation_js/raw/main/assets/screenshots/screenshot.gif"></a>
+<a target="_" href="https://github.com/emantggw"><img src="assets/amanuel_banner.gif"></a>
 </p>
 
 <p align="center">
@@ -14,8 +14,7 @@
 </p>
 
 <p align="center">
-
-### **Hey there! 👋 I'm Amanuel Tito (Emant)**
+Hey there! 👋 I'm Amanuel Tito
 
 I'm a passionate Flutter enthusiast and full-stack developer who loves building efficient, scalable applications. With over three years of professional experience in crafting seamless mobile experiences and optimizing backend systems, and over five years of programming journey, I bridge creativity and performance in every project I touch.
 <br>
@@ -25,50 +24,40 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
    📧 Email: <a href="mailto: emantweb@gmail.com">emantweb@gmail</a><br>
    📞 Phone: <a href="tel:+251939977886">+251939977886</a><br>
    </p>
+</p>
 
 ### 🚀 Innovations in Progress:
 
 - 📱 **Mobile Apps**: Building high-performance apps with intuitive UI/UX.
 - 🤖 **Telegram Bots & Mini-Apps:**: Creating interactive bot functionalities..
 - 🖥️ **Backend Development:** NestJS, Python, Firebase, Redis, Docker for optimized performance.
-- **🌐 ERP Solutions:** Implementing ERP systems using Odoo.
+- **🌐 ERP Solutions:** Exploring ERP systems using Odoo.
 
 ### 🔧 Current Projects:
 
-<div style="text-align: left;">
 <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
 ">
-<img src="assets/hulubeje_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;">
-    <span>
-
-[**Hulubeje**](https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en) - A versatile super-app for cinema ticket booking, hotel reservations, and restaurant ordering with integrated chat<br>
-Downloads: **10k+**<br>
+<img src="assets/hulubeje_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;"><span>
+<a target="_" href="https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en"><b>Hulubeje</b></a> - A versatile super-app for cinema ticket booking, hotel reservations, and restaurant ordering with integrated chat<br>
+Downloads: <b>10k+</b><br>
 Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
-
 </span>
 </div>
+
 <hr style="border: none; border-top: 1px solid grey;">
 
  <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
  ">
       <img src="assets/hulubeje_delivery_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;">
-      <span>
-
-[**Hulubeje Delivery Driver**](https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver) - Optimized for efficient delivery management..<br>
-Tech stack: <b>Flutter, Nestjs, Firebase</b>
-</span>
-
-  </div>
+      <span><a target="_" href="https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver"><b>Hulubeje Delivery Driver</b></a>- Optimized for efficient delivery management.<br>Tech stack: <b>Flutter, Nestjs, Firebase</b></span>
+      </div>
   <hr style="border: none; border-top: 1px solid grey;">
 
  <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
  ">
       <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="50" style="margin-right: 10px;">
-      <span>
-
-[**Flintstone Invest App**](https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en) -
-Secure, user-friendly platform for investment management.
-<br>Downloads: **10k+**
+      <span><a target="_" href="https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en"><b>Flintstone Invest App</b></a> - Secure, user-friendly platform for investment management.
+<br>Downloads: <b>10k+</b>
 </span>
 
   </div>
@@ -76,14 +65,10 @@ Secure, user-friendly platform for investment management.
 <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
  ">
       <img src="assets/nexy_logo.png" alt="Nexy" width="50" style="margin-right: 10px;">
-      <span>
-
-**Nexy Parent App** -
+      <span><b>Nexy Parent App</b> -
 Enabling parental oversight for students' progress tracking.
 </span>
-
   </div>
-</div>
 <br/>
 <hr style="border: none; border-top: 1px solid grey;">
 
@@ -110,25 +95,24 @@ Enabling parental oversight for students' progress tracking.
 
 ### 🎮 Fun JavaScript Projects: From 2019
 
-- [**Pool Game**](https://https://github.com/emantggw/pool_game_js)
+- [**Pool Game**](https://https://github.com/emantggw/pool_game_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/pool_game_js">
   <img src="https://github.com/emantggw/pool_game_js/raw/main/assets/screenshots/screenshot.gif" />
   </a>
 
-- [**Pong Game with Computer**](https://github.com/emantggw/pong_game_js)
+- [**Pong Game with Computer**](https://github.com/emantggw/pong_game_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/pong_game_js"> <img src="https://github.com/emantggw/pong_game_js/raw/main/assets/screenshots/screenshot.gif" /></a>
 
 - [**Snake Game**](https://github.com/emantggw/snake_game_js)
   <a target="_blank" href="https://github.com/emantggw/snake_game_js"><img src="https://github.com/emantggw/snake_game_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
 
-- [**Analog Clock**](https://github.com/emantggw/analog_clock_js)
+- [**Analog Clock**](https://github.com/emantggw/analog_clock_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/analog_clock_js"><img src="https://github.com/emantggw/analog_clock_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
 
-- [**Digital Clock**](https://github.com/emantggw/digital_clock_js)
+- [**Digital Clock**](https://github.com/emantggw/digital_clock_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/digital_clock_js"><img src="https://github.com/emantggw/digital_clock_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
 
-- [**Animated Gear Simulation**](https://github.com/emantggw/animated_gear_js)
-  <br>
+- [**Animated Gear Simulation**](https://github.com/emantggw/animated_gear_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/animated_gear_js"><img src="https://github.com/emantggw/animated_gear_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
 
 - [**Ethiopian Flag Wave**](https://github.com/emantggw/ethiopian_flag_wave_js)
