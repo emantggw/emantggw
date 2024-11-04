@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-Hey there! 👋 I'm Amanuel Tito
+Hey there! 👋 I'm <b>Amanuel Tito</b>
 
 I'm a passionate Flutter enthusiast and full-stack developer who loves building efficient, scalable applications. With over three years of professional experience in crafting seamless mobile experiences and optimizing backend systems, and over five years of programming journey, I bridge creativity and performance in every project I touch.
 <br>
@@ -113,7 +113,7 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
 - [**Pong Game with Computer**](https://github.com/emantggw/pong_game_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/pong_game_js"> <img src="https://github.com/emantggw/pong_game_js/raw/main/assets/screenshots/screenshot.gif" /></a>
 
-- [**Snake Game**](https://github.com/emantggw/snake_game_js)
+- [**Snake Game**](https://github.com/emantggw/snake_game_js)<br>
   <a target="_blank" href="https://github.com/emantggw/snake_game_js"><img src="https://github.com/emantggw/snake_game_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
 
 - [**Analog Clock**](https://github.com/emantggw/analog_clock_js)<br/>
