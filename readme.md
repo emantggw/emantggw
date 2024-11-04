@@ -35,42 +35,52 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 
 ### 🔧 Current Projects:
 
-<div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
-">
-<img src="assets/hulubeje_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;"><span>
-<a target="_" href="https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en"><b>Hulubeje</b></a> - A versatile super-app for cinema ticket booking, hotel reservations, and restaurant ordering with integrated chat<br>
+<table>
+  <tr>
+    <td>
+     <img src="assets/hulubeje_logo.png" alt="Hulubeje" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en">Hulubeje</a></strong>  
+      <p>
+    A versatile super-app for cinema ticket booking, hotel reservations, and restaurant ordering with integrated chat<br>
 Downloads: <b>10k+</b><br>
 Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
-</span>
-</div>
+  </p>
+    </td>
+  </tr>
 
-<hr style="border: none; border-top: 1px solid grey;">
+   <tr>
+    <td>
+    <img src="assets/hulubeje_delivery_logo.png" alt="Hulubeje" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver">Hulubeje Delivery Driver</a></strong><p>  
+   Optimized for efficient delivery management.<br>Tech stack: <b>Flutter, Nestjs, Firebase</p>
+    </td>
+  </tr>
 
- <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
- ">
-      <img src="assets/hulubeje_delivery_logo.png" alt="Hulubeje" width="50" style="margin-right: 10px;">
-      <span><a target="_" href="https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver"><b>Hulubeje Delivery Driver</b></a>- Optimized for efficient delivery management.<br>Tech stack: <b>Flutter, Nestjs, Firebase</b></span>
-      </div>
-  <hr style="border: none; border-top: 1px solid grey;">
+  <tr>
+    <td>
+    <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en">Flintstone Invest App</a></strong> <p>
+  Secure, user-friendly platform for investment management.
+<br>Downloads: <b>10k+</b></p>
+    </td>
+  </tr>
 
- <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
- ">
-      <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="50" style="margin-right: 10px;">
-      <span><a target="_" href="https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en"><b>Flintstone Invest App</b></a> - Secure, user-friendly platform for investment management.
-<br>Downloads: <b>10k+</b>
-</span>
-
-  </div>
-  <hr style="border: none; border-top: 1px solid grey;">
-<div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 25px
- ">
-      <img src="assets/nexy_logo.png" alt="Nexy" width="50" style="margin-right: 10px;">
-      <span><b>Nexy Parent App</b> -
-Enabling parental oversight for students' progress tracking.
-</span>
-  </div>
-<br/>
-<hr style="border: none; border-top: 1px solid grey;">
+   <tr>
+    <td>
+    <img src="assets/nexy_logo.png" alt="Nexy" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong>Nexy Parent App</strong> <p>
+  Enabling parental oversight for students' progress tracking.</p>
+    </td>
+  </tr>
+</table>
 
 ### 📦 Flutter Packages:
 
