@@ -36,6 +36,19 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 ### 🔧 Current Projects:
 
 <table>
+<tr>
+    <td>
+     <img src="assets/josad_logo.gif" alt="Josad" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong><a target="_" href="https://t.me/josad_software">Josad</a></strong>  
+      <p>
+   An AI-Powered job posting and aggregator platform on Telegram.<br>
+Subscribers: <b>10k+</b><br>
+Tech stack: <b>Python, Nestjs, Telegraf, Flutter, Firebase, Redis, Docker</b>
+  </p>
+    </td>
+  </tr>
   <tr>
     <td>
      <img src="assets/hulubeje_logo.png" alt="Hulubeje" width="56" style="margin-right: 10px;">
