@@ -36,6 +36,18 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 ### 🔧 Current Projects:
 
 <table>
+ <tr>
+    <td>
+     <img src="assets/cndroid.png" alt="Josad" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong>CNDroid V2</strong>  
+      <p>
+  A mobile POS application designed for businesses that need to sell products, generate cash receipts, and manage order printing(for restaurants). It offers a seamless and efficient solution for handling transactions and streamlining sales operations.<br>
+Tech stack: <b>Flutter, Android(Java)</b>
+  </p>
+    </td>
+  </tr>
 <tr>
     <td>
      <img src="assets/josad_logo.gif" alt="Josad" width="56" style="margin-right: 10px;">
