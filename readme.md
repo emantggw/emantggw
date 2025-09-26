@@ -29,7 +29,7 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 ### 🚀 Innovations in Progress:
 
 - 📱 **Mobile Apps**: Building high-performance apps with intuitive UI/UX.
-- 🤖 **Telegram Bots & Mini-Apps:**: Creating interactive bot functionalities..
+- 🤖 **Telegram Bots & Mini-Apps:**: Creating interactive bot functionalities.
 - 🖥️ **Backend Development:** NestJS, Python, Firebase, Redis, Docker for optimized performance.
 - **🌐 ERP Solutions:** Exploring ERP systems using Odoo.
 
@@ -84,7 +84,30 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
    Optimized for efficient delivery management.<br>Tech stack: <b>Flutter, Nestjs, Firebase</p>
     </td>
   </tr>
-
+   <tr>
+    <td>
+     <img src="assets/cinema_display.png" alt="Cinema Display" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong>Cinema Display: TV App</strong>  
+      <p>
+A TV display application designed for both portrait and landscape screens. It automatically adjusts to fit the display orientation and showcases movie features such as seat layouts, posters, trailers, and upcoming releases. It also includes customizable options like seat layout with poster, seat layout with trailer, and more.<br>
+Tech stack: <b>Flutter</b>
+  </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+     <img src="assets/kds.png" alt="KDS" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <strong>Kitchen Display: TV App</strong>  
+      <p>
+A TV display application designed for kitchens. It shows incoming orders to chefs, who can mark them as Done once completed. This streamlines the workflow and makes the overall kitchen service experience smoother and more efficient.<br>
+Tech stack: <b>Flutter</b>
+  </p>
+    </td>
+  </tr>
   <tr>
     <td>
     <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="56" style="margin-right: 10px;">
@@ -107,7 +130,40 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
   </tr>
 </table>
 
-### 📦 Flutter Packages:
+
+## 🤗 Highlights:
+
+- ### [**Hulubeje**](https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en)
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl1.jpg" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl2.jpg" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl3.jpg" width="200">
+
+
+- ### CNDroid Mobile POS App (ERP)
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/cndroid_hl1.jpg" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/cndroid_hl2.jpg" width="200">
+
+- ### Cinema Display TV App
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl0.png" width="500">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl1.png" width="500">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl2.png" width="500">
+
+- ### Kitchen Display TV App
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl1.png" width="500">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl2.png" width="500">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl3.png" width="500">
+
+
+- ### Hulubeje Delivery Driver App
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl1.jpg" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl2.jpg" width="200">
+  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl3.jpg" width="200">
+
+<br/>
+<hr style="border: none; border-top: 1px solid grey;">
+
+
+## 📦 Flutter Packages:
 
 - [**Animated Milestone**](https://pub.dev/packages/animated_milestone) - A customizable milestone/timeline package.
   <br>
@@ -128,7 +184,7 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
 <br/>
 <hr style="border: none; border-top: 1px solid grey;">
 
-### 🎮 Fun JavaScript Projects: From 2019
+## 🎮 Fun JavaScript Projects: From 2019
 
 - [**Pool Game**](https://https://github.com/emantggw/pool_game_js)<br/>
   <a target="_blank" href="https://github.com/emantggw/pool_game_js">
@@ -161,7 +217,7 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
 <br/>
 <hr style="border: none; border-top: 1px solid grey;">
 
-### 📝 Recent Articles
+## 📝 Recent Articles
 
 <a target="_blank" href="https://medium.com/@emantggw/dry-principle-1d78900fb00e"><img src="assets/article_dry.png" alt="Dry Principle"></a>
 <a target="_blank" href="https://medium.com/@emantggw/what-should-we-consider-migrating-from-a-monolithic-application-to-a-distributed-architecture-2b0f2f8e06b2"><img src="assets/migrating_mon_to_dist.png" alt="Recent Article 1"></a>
@@ -169,7 +225,7 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
 <br/>
 <hr style="border: none; border-top: 1px solid grey;">
 
-### 🎉 Achievements
+## 🎉 Achievements
 
 - Graduated with BSc in Computer Science, <u>**CGPA 3.86**</u> in 2021 from **Arba Minch University**.
 - Received nation wide **Huawei ICT Competition Award** in 2021:
