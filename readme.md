@@ -26,6 +26,20 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
    </p>
 </p>
 
+### 🏹 My Stacks:
+<a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" /></a>&nbsp;
+<a href="https://www.android.com/"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>&nbsp;
+<a href="https://nodejs.org/en"><img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" /></a>&nbsp;
+<a href="https://nestjs.com/"><img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Nest" /></a>&nbsp;
+<a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" /></a>&nbsp;
+<a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" /></a>&nbsp;
+<a href="https://redis.io/"><img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></a>&nbsp;
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white
+" alt="Docker" /></a>&nbsp;
+<a href="https://nginx.org/"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGnix" /></a>&nbsp;
+
+
+
 ### 🚀 Innovations in Progress:
 
 - 📱 **Mobile Apps**: Building high-performance apps with intuitive UI/UX.
