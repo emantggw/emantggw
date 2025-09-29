@@ -81,7 +81,7 @@ Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
     </td>
     <td>
       <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver">Hulubeje Delivery Driver</a></strong><p>  
-   Optimized for efficient delivery management.<br>Tech stack: <b>Flutter, Nestjs, Firebase</p>
+   The Delivery Driver App: Empowers delivery drivers to manage and track their orders seamlessly. Designed for speed, simplicity, and reliability, the app connects directly with the dispatcher API to keep drivers updated in real time.<br>Tech stack: <b>Flutter, Nestjs, Supabase</p>
     </td>
   </tr>
    <tr>
