@@ -26,6 +26,42 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
    </p>
 </p>
 
+
+
+## 🧭 Professional Experiences
+
+<table style="width:100%; border-collapse:collapse; margin-bottom:16px;">
+  <tr>
+    <td style="width:96px; vertical-align:top; padding:8px;">
+      <img src="assets/company_kacha.png" alt="Kacha Digital Service" width="80" />
+    </td>
+    <td style="vertical-align:top; padding:8px;">
+      <strong>Kacha Digital Service S.C</strong><br/>
+      <em>Senior Mobile App Developer</em><br/>
+      <span>Jan 5, 2026 — Present</span>
+    </td>
+  </tr>
+   <tr>
+    <td style="width:96px; vertical-align:top; padding:8px;">
+      <img src="assets/company_redcloud.jpg" alt="Kacha Digital Service" width="80" />
+    </td>
+    <td style="vertical-align:top; padding:8px;">
+      <strong>Red-Cloud ICT Solutions</strong><br/>
+      <em>Mobile App Development Section Head</em><br/>
+      <span>March 2022 — Dec 15, 2025 (3 years 10 month)</span>
+    </td>
+     <td style="vertical-align:top; padding:8px;">
+      <ul>
+        <li>Hulubeje</li>
+        <li>Hulubeje Delivery Driver App</li>
+        <li>Mobile POS App</li>
+        <li>Kitchen Display TV App</li>
+        <li>Cinema Display</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ### 🏹 My Stacks:
 <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" /></a>&nbsp;
 <a href="https://www.android.com/"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>&nbsp;
@@ -50,6 +86,17 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 ### 🔧 Current Projects:
 
 <table>
+<tr>
+    <td>
+     <img src="assets/company_kacha.png" alt="Kacha" width="56" style="margin-right: 10px;">
+    </td>
+    <td>
+      <a target="_" href="https://play.google.com/store/apps/datasafety?id=com.kachadfs.customer"><strong>Kacha</strong></a>
+      <p>
+  A fin-tech mobile application.
+  </p>
+    </td>
+  </tr>
  <tr>
     <td>
      <img src="assets/cndroid.png" alt="Josad" width="56" style="margin-right: 10px;">
