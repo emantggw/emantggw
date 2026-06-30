@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Amanuel Tito - CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="page" id="page-root"></div>
+
+  <script src="data.js"></script>
+  <script>
+    const data = cvData;
+
+    function esc(s) {
+      if (s == null) return '';
+      return String(s);
+    }
+
+    function renderContact(items) {
+      return items.map(c => {
+        const body = c.link ? `<a href="${c.link}">${esc(c.text)}</a>` : esc(c.text);
+        return `<div class="contact-item">${c.icon} ${body}</div>`;
+      }).join('');
+    }
+
+    function renderSkills(groups) {
+      return groups.map(g => `
+      <div class="skill-group">
+        <div class="skill-group-name">${esc(g.group)}</div>
+        <div class="skill-tags">
+          ${g.items.map(i => `<span class="tag">${esc(i)}</span>`).join('')}
+        </div>
+      </div>`).join('');
+    }
+
+    function renderPackages(pkgs) {
+      return pkgs.map(p => `<div class="pkg-item">${p.icon || '📦'} <a href="${p.link}">${esc(p.name)}</a></div>`).join('');
+    }
+
+    function renderEducation(edu) {
+      return `
+      <div class="edu-degree">${esc(edu.degree)}</div>
+      <div class="edu-school">${esc(edu.school)}</div>
+      <div class="edu-meta">${esc(edu.meta)}</div>`;
+    }
+
+    function renderCerts(certs) {
+      return certs.map(c => `
+      <div class="cert-item">
+        <span class="cert-name">${esc(c.name)}</span>
+        <span class="cert-date">${esc(c.date)}</span>
+      </div>`).join('');
+    }
+
+    function renderLanguages(langs) {
+      return langs.map(l => `<div class="lang-item"><b>${esc(l.name)}</b>: ${esc(l.level)}</div>`).join('');
+    }
+
+    function renderExperience(jobs) {
+      return jobs.map(j => {
+        const titleHtml = j.companyLink
+          ? `${esc(j.title)} · <a href="${j.companyLink}">${esc(j.company)}</a>`
+          : `${esc(j.title)} · ${esc(j.company)}`;
+        const locationHtml = j.location ? `<div class="job-location">${esc(j.location)}</div>` : '';
+        const bulletsHtml = j.bullets.map(b => `<li>${b}</li>`).join('');
+        return `
+        <div class="job">
+          <div class="job-head">
+            <div class="job-title">${titleHtml}</div>
+            <div class="job-dates">${esc(j.dates)}</div>
+          </div>
+          ${locationHtml}
+          <ul class="bullets">${bulletsHtml}</ul>
+        </div>`;
+      }).join('');
+    }
+
+    function renderProjects(projects, moreWork) {
+      const items = projects.map(p => {
+        const stackHtml = p.stack ? `<div class="proj-stack">${esc(p.stack)}</div>` : '';
+        let linksHtml = '';
+        if (p.links && p.links.length) {
+          linksHtml = '<div class="proj-links">' +
+            p.links.map(l => `<a href="${l.url}">${esc(l.label)}</a>`).join('<span class="sep">|</span>') +
+            '</div>';
+        }
+        return `
+        <div class="proj">
+          <div class="proj-name">${esc(p.name)}</div>
+          <div class="proj-desc">${esc(p.desc)}</div>
+          ${stackHtml}
+          ${linksHtml}
+        </div>`;
+      }).join('');
+      const moreHtml = moreWork
+        ? `<div class="more-work">${esc(moreWork.text)} <a href="${moreWork.link}">${esc(moreWork.linkText)}</a></div>`
+        : '';
+      return items + moreHtml;
+    }
+
+    const html = `
+    <div class="sidebar">
+      <div class="name">${esc(data.name)}</div>
+      <div class="role">${esc(data.role)}</div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Contact</div>
+        ${renderContact(data.contact)}
+      </div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Skills</div>
+        ${renderSkills(data.skills)}
+      </div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Published Packages</div>
+        ${renderPackages(data.packages)}
+      </div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Education</div>
+        ${renderEducation(data.education)}
+      </div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Certifications &amp; Awards</div>
+        ${renderCerts(data.certifications)}
+      </div>
+
+      <div class="sb-divider"></div>
+      <div class="sb-section">
+        <div class="sb-section-title">Languages</div>
+        ${renderLanguages(data.languages)}
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="main-section">
+        <div class="main-section-title">Summary</div>
+        <div class="summary-text">${esc(data.summary)}</div>
+      </div>
+
+      <div class="main-section">
+        <div class="main-section-title">Experience</div>
+        ${renderExperience(data.experience)}
+      </div>
+
+      <div class="main-section">
+        <div class="main-section-title">Selected Projects</div>
+        ${renderProjects(data.projects, data.moreWork)}
+      </div>
+    </div>
+  `;
+
+    document.getElementById('page-root').innerHTML = html;
+  </script>
+</body>
+
+</html>
