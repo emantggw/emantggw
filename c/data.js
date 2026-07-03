@@ -56,9 +56,10 @@ const cvData = {
       "dates": "Jan 2026 – Present",
       "location": "Addis Ababa",
       "bullets": [
-        "Architecting and building Kacha, a digital wallet and payment platform serving thousands of users",
-        "Discuss mobile architecture decisions with clean separation of concerns and testable code",
-        "Collaborating with backend and product teams in an agile delivery model"
+        "Maintaining Kacha, a digital wallet and payment platform serving thousands of users",
+        "Collaborating with backend and product teams in an agile delivery model",
+        "Building interest free banking (IFB) with comprehensive finance request application adaptable for multiple banks providers",
+        "Building banking wallet app for per bank"
       ]
     },
     {
