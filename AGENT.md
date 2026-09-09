@@ -29,41 +29,42 @@ The repository is intentionally simple: static HTML, CSS, JS data, fonts, images
 | `AGENT.md` | This file. |
 | `assets/` | Banners, project screenshots, company logos. |
 | `assets/fonts/` | Inter woff2 files (400, 500, 600, 700). Source of truth for fonts. |
-| `c/` | CV generator. |
-| `c/template.html` | Shared HTML + JS renderer: reads `data.js`, fills `#page-root`. |
-| `c/base.css` | Master shared stylesheet (fonts referenced as `../assets/fonts/`). |
-| `c/index.html`, `c/style.css`, `c/data.js` | **Legacy** single-CV layout. Do not extend; keep intact as fallback. |
-| `c/mobile/` | Self-contained Mobile CV variant. |
-| `c/mobile/index.html` | Copy of template with variant title + CSS links. |
-| `c/mobile/data.js` | All CV content for the variant. |
-| `c/mobile/style.css` | Theme colors + variant spacing overrides for single-page fit. |
-| `c/mobile/base.css` | Copy of shared CSS; fonts point to local `./fonts/`. |
-| `c/mobile/fonts/` | Local copy of the 4 Inter woff2 files. |
-| `c/fullstack/` | Same structure as `c/mobile/`. |
-| `c/Amanuel Tito - Mobile CV.pdf` etc. | **Committed build artifacts** (kept in sync with data). |
+| `c/` | CV generator root. Kept clean: shared sources live in `_shared`, everything else lives inside a variant folder. |
+| `c/_shared/` | **Master shared sources for the CV generator.** |
+| `c/_shared/template.html` | Master render template: reads `data.js` and fills `#page-root`. Copy it into a new variant as `index.html`. |
+| `c/_shared/base.css` | Master shared stylesheet (fonts referenced as `../assets/fonts/`). Copy it into a new variant and fix the 4 font paths to `fonts/`. |
+| `c/index.html`, `c/style.css`, `c/data.js` | **Legacy** single-CV layout (also `c/Amanuel Tito.pdf`). Do not extend; keep intact as fallback. |
 | `c/Amanuel_Tito_Cover_Letter.md` | Cover letter draft (markdown). |
+| `c/<variant>/` | One self-contained folder per CV variant (currently `mobile/` and `fullstack/`). Each contains everything needed to render without touching any sibling. |
+| `c/<variant>/index.html` | Render entry point (copy of `_shared/template.html` with the variant title and CSS links). |
+| `c/<variant>/data.js` | All CV content for the variant. |
+| `c/<variant>/style.css` | Theme colors + spacing overrides for single-page fit. |
+| `c/<variant>/base.css` | Copy of `_shared/base.css` with font paths fixed to local `./fonts/`. |
+| `c/<variant>/fonts/` | Local copy of the 4 Inter woff2 files. |
+| `c/<variant>/<variant CV>.pdf` | **Generated PDF artifact, committed and kept in sync with data.** |
+| `c/<variant>/examples/` (optional) | Placeholder for per-variant extras (screenshots, notes); not required. |
 
 ---
 
 ## 3. The CV data model (`data.js`)
 
-Every variant defines `const cvData = { ... }` and the template renders it via JS
+Every variant defines `const cvData = { ... }` and its `index.html` renders it via JS
 `document.getElementById('page-root').innerHTML`. Shape:
 
 ```js
 {
   name: "Amanuel Tito",
   role: "Senior Mobile App Developer",
-  contact: [ { label, text, link }, ... ],        // 5 items, link may be null
-  skills: [ { group, items: [...] }, ... ],       // sidebar skill groups
-  packages: [ { name, link }, ... ],              // Flutter pub.dev packages
-  education: { degree, school, meta },            // meta may contain HTML
-  certifications: [ { name, date }, ... ],        // e.g. date "Sep 2026"
+  contact: [ { label, text, link }, ... ],   // 5 items, link may be null
+  skills: [ { group, items: [...] }, ... ],  // sidebar skill groups
+  packages: [ { name, link }, ... ],         // Flutter pub.dev packages
+  education: { degree, school, meta },       // meta may contain HTML
+  certifications: [ { name, date }, ... ],   // e.g. date "Sep 2026"
   languages: [ { name, level }, ... ],
   summary: "one-paragraph pitch",
   experience: [ { title, company, companyLink, dates, location, bullets: [..] } ],
   projects: [ { name, desc, stack, links: [ {label, url} ] } ],
-  moreWork: { text, linkText, link }              // footer "More work on github.com/emantggw"
+  moreWork: { text, linkText, link }         // footer "More work on github.com/emantggw"
 }
 ```
 
@@ -80,16 +81,17 @@ Notes and subtle rules:
 
 ## 4. How to render a CV to PDF
 
-No server needed. From anywhere inside the variant folder:
+Each variant renders itself. Run from inside the variant folder and write the PDF into
+that same folder (that is where it is committed):
 
 ```bash
 cd c/mobile
 chromium --headless --no-sandbox --disable-gpu \
-  --print-to-pdf="../Amanuel Tito - Mobile CV.pdf" index.html
+  --print-to-pdf="Amanuel Tito - Mobile CV.pdf" index.html
 ```
 
-Same for fullstack, with `c/fullstack/` and the Fullstack filename. The PDF is written
-next to the sources in `c/` and is committed to git so git history always matches data.
+Same for fullstack. Every variant is self-contained: `index.html` loads the variant's own
+`data.js`, `base.css`, `style.css`, and `fonts/`, so rendering never touches siblings.
 
 ---
 
@@ -106,14 +108,14 @@ next to the sources in `c/` and is committed to git so git history always matche
 - **No em dashes** anywhere (per `config.md`), including commits and this file. Use commas,
   periods, or plain hyphens. En dashes and em dashes are forbidden in user-visible text.
 - **Accent-based theming**: each variant's `style.css` only overrides `:root` color variables
-  and spacing, so both CVs share one visual system.
+  and spacing, so all CVs share one visual system.
 
 ---
 
 ## 6. Validation checklist (run after every change)
 
 ```bash
-f="Amanuel Tito - Mobile CV.pdf"
+f="Amanuel Tito - Mobile CV.pdf" # inside c/mobile
 
 pdfinfo "$f" | grep Pages            # MUST be: Pages: 1
 pdffonts  "$f"                       # every row must be Inter-*, no NimbusSans
@@ -156,7 +158,7 @@ Edit `:root` variables in that variant's `style.css` (`--accent`, `--ink`, `--si
 1. `cp -r c/mobile c/newfocus`
 2. Update `c/newfocus/index.html` title and `c/newfocus/data.js` role/content.
 3. Tune `c/newfocus/style.css` spacing to fit one page.
-4. Render and commit the new PDF.
+4. Render inside the folder and commit the new PDF.
 
 ---
 
@@ -166,19 +168,21 @@ Edit `:root` variables in that variant's `style.css` (`--accent`, `--ink`, `--si
   pushes it entirely to page 2. Symptom: page 1 has only the header. Fixes (in order):
   trim copy (bullets/descriptions), then tighten `style.css` spacing, then reduce font
   sizes. Never fix by shrinking below ~8 pt body.
-- **Fonts must be local files**: `src: url(fonts/inter-400.woff2)`.
-  Base64 `data:` URIs are NOT embedded correctly by Chromium's print to PDF (measured
-  with `pdffonts`). Do not "improve" this.
-- **`base.css` exists in 3 places** with different font paths: `c/base.css`
-  (`../assets/fonts/`), `c/mobile/base.css` and `c/fullstack/base.css` (`fonts/`).
-  When editing shared CSS, update the master first, then copy it into each variant and
-  fix the four `src: url(...)` font paths.
+- **Fonts must be local files**: `src: url(fonts/inter-400.woff2)`. Base64 `data:` URIs are
+  NOT embedded correctly by Chromium's print to PDF (measured with `pdffonts`). Do not "improve" this.
+- **`base.css` lives in 3 places on purpose**: `_shared/base.css` is the master
+  (`../assets/fonts/`); each variant keeps its own `base.css` (`fonts/`). When editing
+  shared CSS, update `_shared` first, then copy into each variant and fix the four
+  `src: url(...)` font paths.
+- **`template.html` lives in `_shared`**: variants hold a generated `index.html` copy.
+  After editing `_shared/template.html`, regenerate (or copy) it into each variant and
+  patch the `<title>` and added CSS links.
 - **Fonts are duplicated on purpose**: `assets/fonts/` (source of truth) and one copy in
-  each variant folder (`mobile/fonts/`, `fullstack/fonts/`) so each CV is self-contained.
-- **PDFs are tracked in git**: after editing `data.js`, rebuild the PDFs and commit them
-  together, or the committed artifact drifts from the source.
-- The legacy `c/index.html` + `c/data.js` + `c/style.css` is the original single CV.
-  Keep it intact (it is part of git history and a fallback).
+  each variant folder so every CV is self-contained.
+- **PDFs are tracked in git**: after editing `data.js` or CSS, rebuild the PDF inside the
+  variant folder and commit it together with the sources, or the artifact drifts.
+- The legacy `c/index.html` + `c/data.js` + `c/style.css` (+ `c/Amanuel Tito.pdf`) is the
+  original single CV. Keep it intact (part of git history and a fallback).
 
 ---
 
