@@ -1,0 +1,189 @@
+# AGENT.md
+
+Guide for AI coding agents (and humans) working in this repository.
+
+- Owner: Amanuel Tito (github.com/emantggw), email emantweb@gmail.com
+- Remote: https://github.com/emantggw/emantggw.git (branch: main)
+
+---
+
+## 1. What this repository is
+
+Two things live in one repo:
+
+1. **GitHub portfolio / profile landing page** rendered by the root `readme.md`, which is what visitors see on github.com/emantggw. It presents experience, projects, tech-stack badges, Flutter packages, articles, and screenshots (images in `assets/`).
+2. **A CV generator in `c/`** that produces professional one-page A4 PDF resumes from plain data files, rendered with headless Chromium. Two focused variants are maintained today:
+   - `c/mobile/` renders **"Amanuel Tito - Mobile CV.pdf"** (role: *Senior Mobile App Developer*, FinTech-heavy)
+   - `c/fullstack/` renders **"Amanuel Tito - Fullstack CV.pdf"** (role: *Senior Full-Stack Engineer*, backend / bots / ML focus)
+
+The repository is intentionally simple: static HTML, CSS, JS data, fonts, images and PDFs. There is no build system, no package manager, no server. "Building" means rendering PDFs with a local headless Chromium.
+
+---
+
+## 2. Repository layout
+
+| Path | Purpose |
+|---|---|
+| `readme.md` | GitHub profile landing page (banner, badges, projects, packages, articles). |
+| `config.md` | **Project rules. Read first, it is the law.** |
+| `AGENT.md` | This file. |
+| `assets/` | Banners, project screenshots, company logos. |
+| `assets/fonts/` | Inter woff2 files (400, 500, 600, 700). Source of truth for fonts. |
+| `c/` | CV generator. |
+| `c/template.html` | Shared HTML + JS renderer: reads `data.js`, fills `#page-root`. |
+| `c/base.css` | Master shared stylesheet (fonts referenced as `../assets/fonts/`). |
+| `c/index.html`, `c/style.css`, `c/data.js` | **Legacy** single-CV layout. Do not extend; keep intact as fallback. |
+| `c/mobile/` | Self-contained Mobile CV variant. |
+| `c/mobile/index.html` | Copy of template with variant title + CSS links. |
+| `c/mobile/data.js` | All CV content for the variant. |
+| `c/mobile/style.css` | Theme colors + variant spacing overrides for single-page fit. |
+| `c/mobile/base.css` | Copy of shared CSS; fonts point to local `./fonts/`. |
+| `c/mobile/fonts/` | Local copy of the 4 Inter woff2 files. |
+| `c/fullstack/` | Same structure as `c/mobile/`. |
+| `c/Amanuel Tito - Mobile CV.pdf` etc. | **Committed build artifacts** (kept in sync with data). |
+| `c/Amanuel_Tito_Cover_Letter.md` | Cover letter draft (markdown). |
+
+---
+
+## 3. The CV data model (`data.js`)
+
+Every variant defines `const cvData = { ... }` and the template renders it via JS
+`document.getElementById('page-root').innerHTML`. Shape:
+
+```js
+{
+  name: "Amanuel Tito",
+  role: "Senior Mobile App Developer",
+  contact: [ { label, text, link }, ... ],        // 5 items, link may be null
+  skills: [ { group, items: [...] }, ... ],       // sidebar skill groups
+  packages: [ { name, link }, ... ],              // Flutter pub.dev packages
+  education: { degree, school, meta },            // meta may contain HTML
+  certifications: [ { name, date }, ... ],        // e.g. date "Sep 2026"
+  languages: [ { name, level }, ... ],
+  summary: "one-paragraph pitch",
+  experience: [ { title, company, companyLink, dates, location, bullets: [..] } ],
+  projects: [ { name, desc, stack, links: [ {label, url} ] } ],
+  moreWork: { text, linkText, link }              // footer "More work on github.com/emantggw"
+}
+```
+
+Notes and subtle rules:
+- `education.meta` is **deliberately not HTML-escaped** by the template so that
+  `<b>CGPA 3.86 / 4.00</b>` renders bold. Do not escape it.
+- `experience[].bullets[]` items are injected as-is, so they may contain `<b>...</b>`.
+- `contact` must have exactly 5 items to fill the header grid: Phone, Email, LinkedIn, GitHub, Location.
+- `certifications[].date` is optional in the model but always provide one (missing dates render blank).
+- Dates use `Mon YYYY - Present` (plain hyphen, never en/em dash).
+- Keep text concise: both CVs must fit **one A4 page**.
+
+---
+
+## 4. How to render a CV to PDF
+
+No server needed. From anywhere inside the variant folder:
+
+```bash
+cd c/mobile
+chromium --headless --no-sandbox --disable-gpu \
+  --print-to-pdf="../Amanuel Tito - Mobile CV.pdf" index.html
+```
+
+Same for fullstack, with `c/fullstack/` and the Fullstack filename. The PDF is written
+next to the sources in `c/` and is committed to git so git history always matches data.
+
+---
+
+## 5. Design rules (do not break these)
+
+- **One page A4** (210 x 297 mm). The two-column `.body` flex container is NOT split
+  across pages by Chromium's print engine: if the content slightly exceeds one page,
+  the whole body jumps to page 2 (page 1 shows only the header). Treat 297 mm as a hard cap.
+- **Inter typeface only** (weights 400/500/600/700). Verify with `pdffonts` that no
+  fallback font (e.g. NimbusSans) appears.
+- **Layout**: header (name/role left, 5-cell contact grid right at 77 mm, `1.05fr 0.95fr`),
+  then sidebar (Skills, Published Packages, Education, Certifications, Languages) and main
+  (Summary, Experience, Selected Projects).
+- **No em dashes** anywhere (per `config.md`), including commits and this file. Use commas,
+  periods, or plain hyphens. En dashes and em dashes are forbidden in user-visible text.
+- **Accent-based theming**: each variant's `style.css` only overrides `:root` color variables
+  and spacing, so both CVs share one visual system.
+
+---
+
+## 6. Validation checklist (run after every change)
+
+```bash
+f="Amanuel Tito - Mobile CV.pdf"
+
+pdfinfo "$f" | grep Pages            # MUST be: Pages: 1
+pdffonts  "$f"                       # every row must be Inter-*, no NimbusSans
+pdftotext "$f" - | grep -c $'\xE2\x80\x93\|\xE2\x80\x94'   # MUST print 0 (no en/em dashes)
+```
+
+Also confirm the changed content actually appears in the extracted text (e.g. a new
+certificate, address, or bullet), and that the page bottom ink stays inside ~290 mm.
+
+---
+
+## 7. Recipe: common feature requests
+
+### Change contact info
+Edit the `contact` array in the variant's `data.js`. Keep 5 items, order Phone, Email,
+LinkedIn, GitHub, Location.
+
+### Add a skill group or a tag
+Add or remove objects inside `skills` (or edit `items`). Sidebar wraps tags automatically.
+Watch sidebar height: it typically drives page fit.
+
+### Add a project
+Append to `projects` in `data.js`:
+```js
+{ "name": "Project Name", "desc": "One or two concise sentences.",
+  "stack": "Flutter · NestJS", "links": [ { "label": "Link", "url": "https://..." } ] }
+```
+Keep `desc` short; long descriptions push the page over the limit.
+
+### Add a certification
+```js
+{ "name": "Name of Course or Award", "date": "Sep 2026" }
+```
+Insert near the top (most recent first). Keep the count small enough for the sidebar.
+
+### Change the accent color of one variant
+Edit `:root` variables in that variant's `style.css` (`--accent`, `--ink`, `--sidebar-bg`, ...).
+
+### Add a brand-new variant (e.g. a new focus)
+1. `cp -r c/mobile c/newfocus`
+2. Update `c/newfocus/index.html` title and `c/newfocus/data.js` role/content.
+3. Tune `c/newfocus/style.css` spacing to fit one page.
+4. Render and commit the new PDF.
+
+---
+
+## 8. Gotchas and known traps
+
+- **Flex print quirk**: if the body is a few mm too tall, Chromium does not split it, it
+  pushes it entirely to page 2. Symptom: page 1 has only the header. Fixes (in order):
+  trim copy (bullets/descriptions), then tighten `style.css` spacing, then reduce font
+  sizes. Never fix by shrinking below ~8 pt body.
+- **Fonts must be local files**: `src: url(fonts/inter-400.woff2)`.
+  Base64 `data:` URIs are NOT embedded correctly by Chromium's print to PDF (measured
+  with `pdffonts`). Do not "improve" this.
+- **`base.css` exists in 3 places** with different font paths: `c/base.css`
+  (`../assets/fonts/`), `c/mobile/base.css` and `c/fullstack/base.css` (`fonts/`).
+  When editing shared CSS, update the master first, then copy it into each variant and
+  fix the four `src: url(...)` font paths.
+- **Fonts are duplicated on purpose**: `assets/fonts/` (source of truth) and one copy in
+  each variant folder (`mobile/fonts/`, `fullstack/fonts/`) so each CV is self-contained.
+- **PDFs are tracked in git**: after editing `data.js`, rebuild the PDFs and commit them
+  together, or the committed artifact drifts from the source.
+- The legacy `c/index.html` + `c/data.js` + `c/style.css` is the original single CV.
+  Keep it intact (it is part of git history and a fallback).
+
+---
+
+## 9. Commit conventions
+
+Follow the repo history style: `feat: add ...`, `refactor: refine ...`, `fix: correct ...`.
+Commit source files **and** the regenerated PDFs (and font copies, if added) together so
+that the repository always reproduces its PDFs exactly.
