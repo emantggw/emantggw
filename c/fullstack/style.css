@@ -1,0 +1,15 @@
+/* ============================================================
+   Full-Stack / Backend CV theme
+   ============================================================ */
+
+:root {
+  --ink: #131a26;
+  --ink-soft: #26313f;
+  --ink-muted: #5d6a7a;
+  --accent: #2b4f8c;
+  --accent-soft: #e8eef7;
+  --rule: #d8d8dc;
+  --sidebar-bg: #f5f6f8;
+  --tag-bg: #ffffff;
+  --tag-border: #d8d8dc;
+}

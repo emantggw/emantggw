@@ -1,0 +1,102 @@
+/* ============================================================
+   Mobile / FinTech CV theme
+   ============================================================ */
+
+:root {
+  --ink: #12222b;
+  --ink-soft: #24333c;
+  --ink-muted: #5f6b76;
+  --accent: #0e6a5f;
+  --accent-soft: #e9f2ef;
+  --rule: #d8d8dc;
+  --sidebar-bg: #f5f6f8;
+  --tag-bg: #ffffff;
+  --tag-border: #d8d8dc;
+}
+/* ============================================================
+   Mobile / FinTech CV spacing overrides (fit exactly one page)
+   ============================================================ */
+
+.page {
+  padding: 6mm 8mm 6mm 8mm;
+}
+
+.body {
+  margin-top: 2.6mm;
+}
+
+.sidebar {
+  padding: 3mm 3mm 3mm 3.2mm;
+}
+
+.main {
+  padding: 3mm 4mm 0 3.6mm;
+}
+
+.sb-section {
+  margin-bottom: 2.4mm;
+}
+
+.sb-title {
+  margin-bottom: 1.5mm;
+}
+
+.skill-group {
+  margin-bottom: 1.5mm;
+}
+
+.main-section {
+  margin-bottom: 3.4mm;
+}
+
+.main-title {
+  margin-bottom: 1.9mm;
+}
+
+.job {
+  margin-bottom: 2.6mm;
+}
+
+ul.bullets li {
+  margin-bottom: 0.88mm;
+}
+
+.proj {
+  margin-bottom: 1.8mm;
+}
+
+.cert-item {
+  margin-bottom: 0.9mm;
+}
+
+.pkg-item {
+  margin-bottom: 0.9mm;
+}
+
+.lang-item {
+  margin-bottom: 0.9mm;
+}
+
+/* Micro-type adjustments to guarantee single-page fit */
+.summary-text { font-size: 8.0pt; }
+ul.bullets li { font-size: 8.0pt; }
+.proj-desc { font-size: 7.8pt; }
+.proj-stack { font-size: 7.3pt; }
+.job-title { font-size: 9.0pt; }
+.proj-name { font-size: 8.6pt; }
+.main-title { font-size: 9.1pt; }
+
+/* --- single-page compaction (guaranteed fit) --- */
+html, body { font-size: 8.9pt; line-height: 1.3; }
+.page { padding: 5mm 8mm 5mm 8mm; }
+.body { break-inside: auto; }
+.job, .proj { break-inside: avoid; page-break-inside: avoid; }
+.job-head { margin-bottom: 0.4mm; }
+.main-section { margin-bottom: 3.1mm; }
+.job { margin-bottom: 2.4mm; }
+.proj { margin-bottom: 1.6mm; }
+.sb-section { margin-bottom: 2.2mm; }
+.skill-group { margin-bottom: 1.35mm; }
+.cert-item { margin-bottom: 0.85mm; }
+.pkg-item { margin-bottom: 0.85mm; }
+.lang-item { margin-bottom: 0.85mm; }
