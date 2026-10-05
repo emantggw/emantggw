@@ -32,9 +32,14 @@ I build Flutter applications and architect backend systems with NestJS, Firebase
 
 <img src="assets/josad_logo.gif" alt="Josad logo" width="64">
 
-**AI-powered job aggregation platform** serving 15k+ Telegram members. Aggregates jobs from channels and job boards, classifies them with SVM/BERT, and distributes posts through four bots. Includes a Flutter Web employer portal delivered as a Telegram Mini App.
+**AI-powered job discovery and recruitment platform** connecting employers and job seekers across the web and Telegram. Collects listings from Telegram channels and external job boards, categorizes them, and shares relevant opportunities with topic-based channels. Supports employer job posting, verification, resume submissions, application tracking, and candidate shortlisting.
 
-- **Stack:** NestJS, Python, Telegraf, Flutter Web, Firebase, Redis, BullMQ, Docker
+Architected a modular NestJS backend with Firebase / Firestore, Redis caching, and Bull-powered background processing. A separate Python service handles job classification, while an independent Telegram retrieval service collects listings. Next.js portals serve applicants, employers, and administrators, alongside Flutter clients and Telegram bots.
+
+- **Community:** 15k+ Telegram members
+- **Backend:** NestJS, TypeScript, Firebase / Firestore, Redis, Bull, Telegraf
+- **ML & ingestion:** Python, Flask, scikit-learn, MiniLM, SVM, Telegram retrieval API
+- **Clients:** Next.js, React, Flutter, Telegram bots and Mini Apps
 - **Explore:** [Website](https://josad.net) · [Telegram community](https://t.me/josad_software)
 
 ### Kacha
