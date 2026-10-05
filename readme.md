@@ -85,6 +85,14 @@ I'm a passionate Flutter enthusiast and full-stack developer who loves building 
 
 ### 🔧 Current Projects:
 
+#### Asayew | Telegram Advertising Marketplace
+
+A multi-tenant platform connecting Telegram channel owners with advertisers. Supports wallet-based ad purchases, automated publishing, pin scheduling and expiry, and role-based dashboards with English and Amharic interfaces.
+
+- **Backend:** NestJS, TypeScript, Firestore, Redis, Bull, Telegraf
+- **Frontend:** Next.js, React, Tailwind CSS, shadcn/ui, next-intl
+- **Telegram bot:** [@asayew_bot](https://t.me/asayew_bot)
+
 <table>
 <tr>
     <td>

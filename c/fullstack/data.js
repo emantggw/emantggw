@@ -11,11 +11,11 @@ const cvData = {
   ],
 
   "skills": [
-    { "group": "Backend", "items": ["NestJS", "Node.js", "Express", "TypeScript", "REST API Design", "JWT / OAuth", "BullMQ Queues", "WebSockets"] },
-    { "group": "Python & Bots", "items": ["Python", "Flask", "Telegram Bot API", "Telegraf", "MTProto Scraping", "SVM / BERT Job Classification"] },
-    { "group": "Data & Infrastructure", "items": ["PostgreSQL", "Supabase", "Firestore", "Redis", "Docker", "PM2", "Ubuntu VPS", "CI / CD"] },
-    { "group": "Frontend & Mobile", "items": ["Flutter", "Dart", "Flutter Web", "Riverpod", "Clean Architecture"] },
-    { "group": "AI-Accelerated Delivery", "items": ["AI Agents", "AI-Assisted Scaffolding", "Agentic Code Review", "Automated Testing"] }
+    { "group": "Backend Architecture", "items": ["NestJS", "Node.js", "TypeScript", "Clean Architecture", "REST API Design", "JWT / OAuth", "WebSockets"] },
+    { "group": "Data Platforms", "items": ["Firebase / Firestore", "Supabase", "PostgreSQL", "Redis", "Data Modeling", "Caching"] },
+    { "group": "Infrastructure & Delivery", "items": ["Bull / BullMQ", "Docker", "Ubuntu VPS", "CI/CD", "Automated Testing", "Code Review"] },
+    { "group": "Python & Automation", "items": ["Python", "Flask", "Telegraf", "Telegram Bot API", "MTProto", "SVM / BERT"] },
+    { "group": "Web & Mobile", "items": ["Flutter", "Dart", "Flutter Web", "Next.js (Intermediate)"] }
   ],
 
   "packages": [
@@ -41,7 +41,7 @@ const cvData = {
     { "name": "Amharic", "level": "Native" },
     { "name": "English", "level": "Proficient" }
   ],
-  "summary": "Senior full-stack engineer who designs and ships production systems across the stack: NestJS and Python backends, Telegram bots, job pipelines, and Flutter clients. Founded Josad, an AI-powered job aggregator serving 15k+ Telegram members through four bots, a machine-learning classifier, and a modular NestJS API. Experienced with FinTech wallets at Kacha and large e-commerce backends at Red-Cloud, always applying AI-accelerated delivery and clean architecture to go from idea to production fast.",
+  "summary": "Senior full-stack engineer focused on architecting backend systems with NestJS, Firebase, Supabase and Redis. Designs modular APIs, data models, background job pipelines and real-time services for financial and commerce applications. Built Asayew's advertising platform and Josad's job aggregation backend, serving 15k+ Telegram members.",
 
   "experience": [
     {
@@ -51,8 +51,8 @@ const cvData = {
       "dates": "Jan 2026 - Present",
       "location": "Addis Ababa",
       "bullets": [
-        "Building the IFB financing app and partner bank wallet apps, integrating with backend services for multiple financial providers",
-        "Maintaining the Kacha digital wallet and payment platform with thousands of daily users in an agile delivery model"
+        "Develop IFB financing and partner-bank wallet applications, integrating mobile clients with financial-provider APIs.",
+        "Maintain Kacha's digital wallet and payment platform serving thousands of users."
       ]
     },
     {
@@ -62,18 +62,26 @@ const cvData = {
       "dates": "Mar 2022 - Jan 2026",
       "location": null,
       "bullets": [
-        "Designed backend APIs in NestJS for the HuluBeje super app: order processing, real-time seat management, and dispatch for delivery",
-        "Led the mobile division, setting architecture standards and mentoring developers across the product line",
-        "Built CNDroid Mobile POS with embedded ERP integration serving merchants"
+        "Designed NestJS APIs for HuluBeje, covering order processing, real-time seat management and delivery dispatch.",
+        "Led the mobile division, setting architecture standards, reviewing code and mentoring developers.",
+        "Built CNDroid Mobile POS with ERP integration and receipt printing for merchants."
       ]
     }
   ],
 
   "projects": [
     {
+      "name": "Asayew | Telegram Advertising Marketplace",
+      "desc": "Architected a modular NestJS backend for a multi-tenant advertising marketplace. Uses Firestore transactions for wallet-based purchases, Redis caching and Bull jobs for automated ad publishing, pinning and expiry, with role-based access.",
+      "stack": "NestJS · Firebase / Firestore · Redis · Bull · Telegraf · Next.js",
+      "links": [
+        { "label": "Telegram Bot", "url": "https://t.me/asayew_bot" }
+      ]
+    },
+    {
       "name": "Josad: Job Aggregator Platform",
-      "desc": "AI-powered job aggregation for Ethiopia's tech market, serving 15k+ Telegram members. Scrapes jobs from channels and job boards, classifies them with ML, and dispatches to topic channels. Includes 4 Telegram bots for employers, applicants, KYC and admin workflows, and an employer portal built as a Flutter Web Telegram Mini App.",
-      "stack": "NestJS · Telegram Bot API · MTProto · Python (SVM + BERT) · Firestore · Redis · BullMQ",
+      "desc": "Built a modular NestJS API and Python job pipeline for a platform serving 15k+ Telegram members. Aggregates and classifies jobs with SVM/BERT, then distributes posts through four Telegram bots using queued background processing.",
+      "stack": "NestJS · Python · Firebase / Firestore · Redis · BullMQ",
       "links": [
         { "label": "Telegram Channel (15k+) ", "url": "https://t.me/josad_software" },
         { "label": "Platform", "url": "https://josad.io" }
@@ -81,19 +89,19 @@ const cvData = {
     },
     {
       "name": "Dispatcher API",
-      "desc": "Order management engine for HuluBeje: processes, evaluates and dispatches orders to eligible drivers, and handles the full order lifecycle from initiation through delivery and review.",
+      "desc": "Order lifecycle and dispatch engine matching HuluBeje orders to eligible drivers, from placement through delivery and review.",
       "stack": "NestJS · Supabase · Redis",
       "links": []
     },
     {
       "name": "Red Cache",
-      "desc": "Real-time seat management engine and trending movie notifier, plus weekly movie chart report generator, integrated with the HuluBeje mobile app and Cinema ERP POS system.",
+      "desc": "Real-time seat management, movie notifications and weekly chart reports connecting HuluBeje with Cinema ERP POS.",
       "stack": "NestJS · Redis",
       "links": []
     },
     {
       "name": "HuluBeje Super App",
-      "desc": "Full-featured e-commerce super app with 10k+ downloads, and the NestJS + Redis backend powering orders and real-time data.",
+      "desc": "Commerce super app with 10k+ downloads, backed by NestJS and Redis for ordering and real-time data.",
       "stack": "Flutter · Firebase · NestJS · Redis · .NET Core",
       "links": [
         { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en&gl=US" }

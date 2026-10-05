@@ -61,18 +61,18 @@
 
     function renderExperience(jobs) {
       return jobs.map(j => {
-        const titleHtml = j.companyLink
-          ? `${esc(j.title)} · <a href="${j.companyLink}">${esc(j.company)}</a>`
-          : `${esc(j.title)} · ${esc(j.company)}`;
-        const locationHtml = j.location ? `<div class="job-location">${esc(j.location)}</div>` : '';
+        const companyHtml = j.companyLink
+          ? `<a href="${j.companyLink}">${esc(j.company)}</a>`
+          : esc(j.company);
+        const locationHtml = j.location ? ` · ${esc(j.location)}` : '';
         const bulletsHtml = j.bullets.map(b => `<li>${b}</li>`).join('');
         return `
         <div class="job">
           <div class="job-head">
-            <div class="job-title">${titleHtml}</div>
+            <div class="job-title">${esc(j.title)}</div>
             <div class="job-dates">${esc(j.dates)}</div>
           </div>
-          ${locationHtml}
+          <div class="job-company">${companyHtml}${locationHtml}</div>
           <ul class="bullets">${bulletsHtml}</ul>
         </div>`;
       }).join('');
