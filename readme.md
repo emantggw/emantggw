@@ -1,304 +1,226 @@
-<p align="center">
-<a target="_" href="https://github.com/emantggw"><img src="assets/amanuel_banner.gif"></a>
-</p>
+![Amanuel Tito's developer portfolio banner](assets/amanuel_banner.gif)
 
-<p align="center">
- <a href="https://linkedin.com/in/emantggw"><img src="https://img.shields.io/badge/linkedin-0b66c3?style=for-the-badge&logo=linkedin" alt="linkedin" /></a>&nbsp;
-<a href="https://t.me/emantggw"><img src="https://img.shields.io/badge/telegram-3390ec?style=for-the-badge&logo=telegram&logoColor=white" alt="medium" /></a>&nbsp;
-<a href="https://medium.com/@emantggw"><img src="https://img.shields.io/badge/medium-242424?style=for-the-badge&logo=medium" alt="medium" /></a>&nbsp;
-<a href="https://dev.to/emantggw"><img src="https://img.shields.io/badge/dev.to-000000?style=for-the-badge&logo=dev.to&logoColor=white" alt="dev.to" /></a>&nbsp;
-<a href="https://x.com/emantggw"><img src="https://img.shields.io/badge/twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="twitter" /></a>&nbsp;
-<a href="https://github.com/emantggw"><img src="https://img.shields.io/badge/github-0d1117?style=for-the-badge&logo=github" alt="github" /></a>&nbsp;
-<a href="https://leetcode.com/u/emantggw/"><img src="https://img.shields.io/badge/leetcode-070707?style=for-the-badge&logo=leetcode" alt="github" /></a>&nbsp;
+# Hi, I'm Amanuel Tito
 
-</p>
+**Mobile Developer & Full-Stack Engineer** · Addis Ababa, Ethiopia
 
-<p align="center">
-Hey there! 👋 I'm <b>Amanuel Tito</b>
+I build Flutter applications and architect backend systems with NestJS, Firebase, Supabase, and Redis. My work spans digital wallets, financing, commerce, ERP integrations, and Telegram platforms, with a focus on modular APIs, reliable background jobs, and maintainable architecture.
 
-I'm a passionate Flutter enthusiast and full-stack developer who loves building efficient, scalable applications. With over three years of professional experience in crafting seamless mobile experiences and optimizing backend systems, and over five years of programming journey, I bridge creativity and performance in every project I touch.
-<br>
+[LinkedIn](https://linkedin.com/in/emantggw) · [Telegram](https://t.me/emantggw) · [Email](mailto:emantweb@gmail.com) · [Medium](https://medium.com/@emantggw) · [Dev.to](https://dev.to/emantggw) · [X](https://x.com/emantggw) · [LeetCode](https://leetcode.com/u/emantggw/)
 
-<p style="margin-left: 30px">
-   📍 Address:<b> Addis Ababa, Kazanchis</b><br>
-   📧 Email: <a href="mailto: emantweb@gmail.com">emantweb@gmail</a><br>
-   📞 Phone: <a href="tel:+251939977886">+251939977886</a><br>
-   </p>
-</p>
+## Technical Skills
 
+- **Backend:** NestJS, Node.js, TypeScript, Python, REST APIs, Telegram Bot API, Telegraf
+- **Data & infrastructure:** Firebase / Firestore, Supabase, PostgreSQL, Redis, Bull / BullMQ, Docker, Nginx, CI/CD
+- **Mobile:** Flutter, Dart, Android, Riverpod, BLoC, Stacked, MVVM, Clean Architecture
+- **Web:** Flutter Web, Next.js (Intermediate)
+- **Engineering:** API design, data modeling, caching, automated testing, code review, team mentorship
 
+## Featured Projects
 
-## 🧭 Professional Experiences
+### Asayew
 
-<table style="width:100%; border-collapse:collapse; margin-bottom:16px;">
-  <tr>
-    <td style="width:96px; vertical-align:top; padding:8px;">
-      <img src="assets/company_kacha.png" alt="Kacha Digital Service" width="80" />
-    </td>
-    <td style="vertical-align:top; padding:8px;">
-      <strong>Kacha Digital Service S.C</strong><br/>
-      <em>Senior Mobile App Developer</em><br/>
-      <span>Jan 5, 2026 — Present</span>
-    </td>
-  </tr>
-   <tr>
-    <td style="width:96px; vertical-align:top; padding:8px;">
-      <img src="assets/company_redcloud.jpg" alt="Kacha Digital Service" width="80" />
-    </td>
-    <td style="vertical-align:top; padding:8px;">
-      <strong>Red-Cloud ICT Solutions</strong><br/>
-      <em>Mobile App Development Section Head</em><br/>
-      <span>March 2022 — Dec 15, 2025 (3 years 10 month)</span>
-    </td>
-     <td style="vertical-align:top; padding:8px;">
-      <ul>
-        <li>Hulubeje</li>
-        <li>Hulubeje Delivery Driver App</li>
-        <li>Mobile POS App</li>
-        <li>Kitchen Display TV App</li>
-        <li>Cinema Display</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="assets/asayew_logo_light.gif" alt="Asayew animated eye logo on an off-white background" width="88">
 
-### 🏹 My Stacks:
-<a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" /></a>&nbsp;
-<a href="https://www.android.com/"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>&nbsp;
-<a href="https://nodejs.org/en"><img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" /></a>&nbsp;
-<a href="https://nestjs.com/"><img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="Nest" /></a>&nbsp;
-<a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" /></a>&nbsp;
-<a href="https://supabase.com"><img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" /></a>&nbsp;
-<a href="https://redis.io/"><img src="https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></a>&nbsp;
-<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white
-" alt="Docker" /></a>&nbsp;
-<a href="https://nginx.org/"><img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGnix" /></a>&nbsp;
+**Telegram advertising marketplace** connecting channel owners and advertisers. A modular NestJS backend supports wallet-based ad purchases, Firestore transactions, Redis caching, and Bull jobs for automated publishing, pin scheduling, and expiry. The Next.js frontend provides role-based dashboards with English and Amharic interfaces.
 
-
-
-### 🚀 Innovations in Progress:
-
-- 📱 **Mobile Apps**: Building high-performance apps with intuitive UI/UX.
-- 🤖 **Telegram Bots & Mini-Apps:**: Creating interactive bot functionalities.
-- 🖥️ **Backend Development:** NestJS, Python, Firebase, Redis, Docker for optimized performance.
-- **🌐 ERP Solutions:** Exploring ERP systems using Odoo.
-
-### 🔧 Current Projects:
-
-#### Asayew | Telegram Advertising Marketplace
-
-A multi-tenant platform connecting Telegram channel owners with advertisers. Supports wallet-based ad purchases, automated publishing, pin scheduling and expiry, and role-based dashboards with English and Amharic interfaces.
-
-- **Backend:** NestJS, TypeScript, Firestore, Redis, Bull, Telegraf
+- **Backend:** NestJS, TypeScript, Firebase / Firestore, Redis, Bull, Telegraf
 - **Frontend:** Next.js, React, Tailwind CSS, shadcn/ui, next-intl
-- **Telegram bot:** [@asayew_bot](https://t.me/asayew_bot)
+- **Explore:** [Website](https://asayew.com) · [Telegram bot](https://t.me/asayew_bot)
 
-<table>
-<tr>
-    <td>
-     <img src="assets/company_kacha.png" alt="Kacha" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <a target="_" href="https://play.google.com/store/apps/datasafety?id=com.kachadfs.customer"><strong>Kacha</strong></a>
-      <p>
-  A fin-tech mobile application.
-  </p>
-    </td>
-  </tr>
- <tr>
-    <td>
-     <img src="assets/cndroid.png" alt="Josad" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong>CNDroid V2</strong>  
-      <p>
-  A mobile POS application designed for businesses that need to sell products, generate cash receipts, and manage order printing(for restaurants). It offers a seamless and efficient solution for handling transactions and streamlining sales operations.<br>
-Tech stack: <b>Flutter, Android(Java)</b>
-  </p>
-    </td>
-  </tr>
-<tr>
-    <td>
-     <img src="assets/josad_logo.gif" alt="Josad" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong><a target="_" href="https://t.me/josad_software">Josad</a></strong>  
-      <p>
-   An AI-Powered job posting and aggregator platform on Telegram.<br>
-Subscribers: <b>10k+</b><br>
-Tech stack: <b>Python, Nestjs, Telegraf, Flutter, Firebase, Redis, Docker</b>
-  </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-     <img src="assets/hulubeje_logo.png" alt="Hulubeje" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en">Hulubeje</a></strong>  
-      <p>
-    A versatile super-app for cinema ticket booking, hotel reservations, and restaurant ordering with integrated chat<br>
-Downloads: <b>10k+</b><br>
-Tech stack: <b>Flutter, .NetCore, Nestjs, Firebase, Redis, Docker, Ngnix</b>
-  </p>
-    </td>
-  </tr>
+### Josad
 
-   <tr>
-    <td>
-    <img src="assets/hulubeje_delivery_logo.png" alt="Hulubeje" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver">Hulubeje Delivery Driver</a></strong><p>  
-   The Delivery Driver App: Empowers delivery drivers to manage and track their orders seamlessly. Designed for speed, simplicity, and reliability, the app connects directly with the dispatcher API to keep drivers updated in real time.<br>Tech stack: <b>Flutter, Nestjs, Supabase</p>
-    </td>
-  </tr>
-   <tr>
-    <td>
-     <img src="assets/cinema_display.png" alt="Cinema Display" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong>Cinema Display: TV App</strong>  
-      <p>
-A TV display application designed for both portrait and landscape screens. It automatically adjusts to fit the display orientation and showcases movie features such as seat layouts, posters, trailers, and upcoming releases. It also includes customizable options like seat layout with poster, seat layout with trailer, and more.<br>
-Tech stack: <b>Flutter</b>
-  </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-     <img src="assets/kds.png" alt="KDS" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong>Kitchen Display: TV App</strong>  
-      <p>
-A TV display application designed for kitchens. It shows incoming orders to chefs, who can mark them as Done once completed. This streamlines the workflow and makes the overall kitchen service experience smoother and more efficient.<br>
-Tech stack: <b>Flutter</b>
-  </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <img src="assets/flintstone_logo.jpg" alt="Hulubeje" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong><a target="_" href="https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en">Flintstone Invest App</a></strong> <p>
-  Secure, user-friendly platform for investment management.
-<br>Downloads: <b>10k+</b></p>
-    </td>
-  </tr>
+<img src="assets/josad_logo.gif" alt="Josad logo" width="64">
 
-   <tr>
-    <td>
-    <img src="assets/nexy_logo.png" alt="Nexy" width="56" style="margin-right: 10px;">
-    </td>
-    <td>
-      <strong>Nexy Parent App</strong> <p>
-  Enabling parental oversight for students' progress tracking.</p>
-    </td>
-  </tr>
-</table>
+**AI-powered job aggregation platform** serving 15k+ Telegram members. Aggregates jobs from channels and job boards, classifies them with SVM/BERT, and distributes posts through four bots. Includes a Flutter Web employer portal delivered as a Telegram Mini App.
 
+- **Stack:** NestJS, Python, Telegraf, Flutter Web, Firebase, Redis, BullMQ, Docker
+- **Explore:** [Website](https://josad.net) · [Telegram community](https://t.me/josad_software)
 
-## 🤗 Highlights:
+### Kacha
 
-- ### [**Hulubeje**](https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en)
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl1.jpg" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl2.jpg" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/hulubeje_hl3.jpg" width="200">
+<img src="assets/company_kacha.png" alt="Kacha Digital Financial Services logo" width="64">
 
+**Digital wallet and payment application** serving thousands of users. My work includes mobile integrations for partner-bank wallets, onboarding, KYC, payments, and shared white-label Flutter applications.
 
-- ### CNDroid Mobile POS App (ERP)
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/cndroid_hl1.jpg" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/cndroid_hl2.jpg" width="200">
+- **Stack:** Flutter, Firebase, financial-provider APIs
+- **Explore:** [Google Play](https://play.google.com/store/apps/details?id=com.kachadfs.customer)
 
-- ### Cinema Display TV App
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl0.png" width="500">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl1.png" width="500">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/cinema_display_hl2.png" width="500">
+### Berhan Financing
 
-- ### Kitchen Display TV App
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl1.png" width="500">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl2.png" width="500">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/kds_hl3.png" width="500">
+**Mobile financing application** supporting cash loans, salary advances, and school loans.
 
+### HuluBeje
 
-- ### Hulubeje Delivery Driver App
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl1.jpg" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl2.jpg" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="assets/driver_hl3.jpg" width="200">
+<img src="assets/hulubeje_logo.png" alt="HuluBeje logo" width="64">
 
-<br/>
-<hr style="border: none; border-top: 1px solid grey;">
+**Commerce super app with 10k+ downloads**, combining cinema ticket booking, hotel reservations, restaurant ordering, payments, and chat. Supporting NestJS services handle order dispatch and real-time seat management.
 
+- **Stack:** Flutter, .NET Core, NestJS, Firebase, Redis, Docker, Nginx
+- **Explore:** [Google Play](https://play.google.com/store/apps/details?id=com.cnetsoftwares.cnetpay_client&hl=en)
 
-## 📦 Flutter Packages:
+### CNDroid Mobile POS
 
-- [**Animated Milestone**](https://pub.dev/packages/animated_milestone) - A customizable milestone/timeline package.
-  <br>
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" width="200">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" width="200">
+<img src="assets/cndroid.png" alt="CNDroid Mobile POS logo" width="64">
 
-- [**Animated React Button**](https://pub.dev/packages/animated_react_button) - Customizable animated reaction button..
-  <br>
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart.gif" width="100">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart_real_example.gif" width="300">
+**ERP-integrated Android point-of-sale application** for merchant sales, cash receipts, and restaurant order printing.
 
-- [**Confirmation Success**](https://pub.dev/packages/confirmation_success) - Interactive visuals for task confirmations.
-  <br>
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" width="210">
-  <img style="margin-right: 15px; margin-top: 5px" src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" width="210">
+- **Stack:** Flutter, Android (Java), ERP integration
 
-<br/>
-<hr style="border: none; border-top: 1px solid grey;">
+### More Applications
 
-## 🎮 Fun JavaScript Projects: From 2019
+- **[HuluBeje Delivery Driver](https://play.google.com/store/apps/details?id=com.redcloud.hulubeje_delivery_driver):** Order management and real-time delivery updates, built with Flutter, NestJS, and Supabase.
+- **IFB Financing:** Interest-free financing application with multi-bank finance requests, an integrated wallet, and KYC flows.
+- **Cinema Display:** Flutter TV application displaying seat layouts, posters, trailers, and upcoming releases in portrait or landscape.
+- **Kitchen Display:** Flutter TV application for receiving kitchen orders and tracking their completion.
+- **[Flintstone Invest](https://play.google.com/store/apps/details?id=com.flintstone.invest&hl=en):** Investment management application with 10k+ downloads.
+- **Nexy Parent:** Mobile application helping parents follow students' progress.
 
-- [**Pool Game**](https://https://github.com/emantggw/pool_game_js)<br/>
-  <a target="_blank" href="https://github.com/emantggw/pool_game_js">
-  <img src="https://github.com/emantggw/pool_game_js/raw/main/assets/screenshots/screenshot.gif" />
-  </a>
+## Professional Experience
 
-- [**Pong Game with Computer**](https://github.com/emantggw/pong_game_js)<br/>
-  <a target="_blank" href="https://github.com/emantggw/pong_game_js"> <img src="https://github.com/emantggw/pong_game_js/raw/main/assets/screenshots/screenshot.gif" /></a>
+### Kacha Digital Service S.C
 
-- [**Snake Game**](https://github.com/emantggw/snake_game_js)<br>
-  <a target="_blank" href="https://github.com/emantggw/snake_game_js"><img src="https://github.com/emantggw/snake_game_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
+**Senior Mobile App Developer** · Jan 2026 - Present
 
-- [**Analog Clock**](https://github.com/emantggw/analog_clock_js)<br/>
-  <a target="_blank" href="https://github.com/emantggw/analog_clock_js"><img src="https://github.com/emantggw/analog_clock_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
+- Develop financing and partner-bank wallet applications with provider-specific onboarding, KYC, and payment flows.
+- Deliver white-label, co-branded, and insurance applications using a shared Flutter core.
+- Maintain Kacha's digital wallet and payment application.
 
-- [**Digital Clock**](https://github.com/emantggw/digital_clock_js)<br/>
-  <a target="_blank" href="https://github.com/emantggw/digital_clock_js"><img src="https://github.com/emantggw/digital_clock_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
+### Red-Cloud ICT Solutions
 
-- [**Animated Gear Simulation**](https://github.com/emantggw/animated_gear_js)<br/>
-  <a target="_blank" href="https://github.com/emantggw/animated_gear_js"><img src="https://github.com/emantggw/animated_gear_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
+**Mobile App Development Section Head** · Mar 2022 - Dec 2025
 
-- [**Ethiopian Flag Wave**](https://github.com/emantggw/ethiopian_flag_wave_js)
-  <br>
-  <a target="_blank" href="https://github.com/emantggw/ethiopian_flag_wave_js"><img src="https://github.com/emantggw/ethiopian_flag_wave_js/raw/main/assets/screenshots/screenshot.gif" /> </a>
+- Led the mobile division, setting architecture standards, reviewing code, and mentoring developers.
+- Delivered HuluBeje, its companion delivery-driver application, and CNDroid Mobile POS.
+- Built NestJS services for delivery dispatch and real-time seat management, alongside Kitchen Display and Cinema TV applications.
 
-- [**Windows Booting Animation**](https://github.com/emantggw/windows_booting_js)
-  <br>
-  <a target="_blank" href="https://github.com/emantggw/windows_booting_js"><img src="https://github.com/emantggw/windows_booting_js/raw/main/assets/screenshots/screenshot.gif" width="150" /> </a>
+## Open-Source Flutter Packages
 
-<br/>
-<hr style="border: none; border-top: 1px solid grey;">
+- **[WoHttp](https://pub.dev/packages/wo_http):** HTTP client utilities for Flutter applications.
+- **[Animated Milestone](https://pub.dev/packages/animated_milestone):** Customizable milestone and timeline components.
+- **[Animated React Button](https://pub.dev/packages/animated_react_button):** Animated reaction buttons.
+- **[Confirmation Success](https://pub.dev/packages/confirmation_success):** Animated visuals for successful actions.
 
-## 📝 Recent Articles
+## Project Gallery
 
-<a target="_blank" href="https://medium.com/@emantggw/dry-principle-1d78900fb00e"><img src="assets/article_dry.png" alt="Dry Principle"></a>
-<a target="_blank" href="https://medium.com/@emantggw/what-should-we-consider-migrating-from-a-monolithic-application-to-a-distributed-architecture-2b0f2f8e06b2"><img src="assets/migrating_mon_to_dist.png" alt="Recent Article 1"></a>
+<details>
+<summary>Mobile applications</summary>
 
-<br/>
-<hr style="border: none; border-top: 1px solid grey;">
+### HuluBeje
 
-## 🎉 Achievements
+<img src="assets/hulubeje_hl1.jpg" alt="HuluBeje app screenshot 1" width="200">
+<img src="assets/hulubeje_hl2.jpg" alt="HuluBeje app screenshot 2" width="200">
+<img src="assets/hulubeje_hl3.jpg" alt="HuluBeje app screenshot 3" width="200">
 
-- Graduated with BSc in Computer Science, <u>**CGPA 3.86**</u> in 2021 from **Arba Minch University**.
-- Received nation wide **Huawei ICT Competition Award** in 2021:
-  <img src="assets/huawei_certificate.png">
+### CNDroid Mobile POS
 
-<blockquote style="font-style: italic; margin: 20px; padding: 10px; border-left: 4px solid #ccc;">
-  Let's connect, collaborate, and code something amazing!</blockquote>
+<img src="assets/cndroid_hl1.jpg" alt="CNDroid point-of-sale screenshot 1" width="200">
+<img src="assets/cndroid_hl2.jpg" alt="CNDroid point-of-sale screenshot 2" width="200">
+
+### HuluBeje Delivery Driver
+
+<img src="assets/driver_hl1.jpg" alt="HuluBeje delivery-driver screenshot 1" width="200">
+<img src="assets/driver_hl2.jpg" alt="HuluBeje delivery-driver screenshot 2" width="200">
+<img src="assets/driver_hl3.jpg" alt="HuluBeje delivery-driver screenshot 3" width="200">
+
+</details>
+
+<details>
+<summary>TV applications</summary>
+
+### Cinema Display
+
+<img src="assets/cinema_display_hl0.png" alt="Cinema Display layout 1" width="500">
+<img src="assets/cinema_display_hl1.png" alt="Cinema Display layout 2" width="500">
+<img src="assets/cinema_display_hl2.png" alt="Cinema Display layout 3" width="500">
+
+### Kitchen Display
+
+<img src="assets/kds_hl1.png" alt="Kitchen Display order view 1" width="500">
+<img src="assets/kds_hl2.png" alt="Kitchen Display order view 2" width="500">
+<img src="assets/kds_hl3.png" alt="Kitchen Display order view 3" width="500">
+
+</details>
+
+<details>
+<summary>Flutter package demos</summary>
+
+### Animated Milestone
+
+<img src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_three_screenshot.gif" alt="Animated Milestone demo 1" width="200">
+<img src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_two_screenshot.gif" alt="Animated Milestone demo 2" width="200">
+<img src="https://raw.githubusercontent.com/emantggw/animated_milestone/main/assets/screenshots/example_one_screenshot.gif" alt="Animated Milestone demo 3" width="200">
+
+### Animated React Button
+
+<img src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart.gif" alt="Animated heart reaction" width="100">
+<img src="https://raw.githubusercontent.com/emantggw/animated_react_button/main/assets/screenshots/favorite_heart_real_example.gif" alt="Reaction button in an application" width="300">
+
+### Confirmation Success
+
+<img src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_succes_with_yellow.gif" alt="Yellow confirmation animation" width="210">
+<img src="https://raw.githubusercontent.com/emantggw/confirmation_success/main/assets/screenshots/confirm_success_green.gif" alt="Green confirmation animation" width="210">
+
+</details>
+
+## Early JavaScript Projects
+
+A selection of games and visual experiments from 2019.
+
+<details>
+<summary>Explore games, clocks, and animations</summary>
+
+### [Pool Game](https://github.com/emantggw/pool_game_js)
+
+![Pool game demo](https://github.com/emantggw/pool_game_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Pong Game with Computer](https://github.com/emantggw/pong_game_js)
+
+![Pong game demo](https://github.com/emantggw/pong_game_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Snake Game](https://github.com/emantggw/snake_game_js)
+
+![Snake game demo](https://github.com/emantggw/snake_game_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Analog Clock](https://github.com/emantggw/analog_clock_js)
+
+![Analog clock demo](https://github.com/emantggw/analog_clock_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Digital Clock](https://github.com/emantggw/digital_clock_js)
+
+![Digital clock demo](https://github.com/emantggw/digital_clock_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Animated Gear Simulation](https://github.com/emantggw/animated_gear_js)
+
+![Animated gear simulation](https://github.com/emantggw/animated_gear_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Ethiopian Flag Wave](https://github.com/emantggw/ethiopian_flag_wave_js)
+
+![Ethiopian flag animation](https://github.com/emantggw/ethiopian_flag_wave_js/raw/main/assets/screenshots/screenshot.gif)
+
+### [Windows Booting Animation](https://github.com/emantggw/windows_booting_js)
+
+<img src="https://github.com/emantggw/windows_booting_js/raw/main/assets/screenshots/screenshot.gif" alt="Windows boot animation" width="150">
+
+</details>
+
+## Writing
+
+- [DRY Principle](https://medium.com/@emantggw/dry-principle-1d78900fb00e)
+- [What Should We Consider When Migrating from a Monolithic Application to a Distributed Architecture?](https://medium.com/@emantggw/what-should-we-consider-migrating-from-a-monolithic-application-to-a-distributed-architecture-2b0f2f8e06b2)
+
+## Education & Recognition
+
+- **BSc in Computer Science**, Arba Minch University, 2021. **CGPA: 3.86 / 4.00**.
+- **Huawei ICT Competition Award**, national recognition, 2021.
+
+<details>
+<summary>View Huawei award certificate</summary>
+
+![Huawei ICT Competition award certificate](assets/huawei_certificate.png)
+
+</details>
+
+## Get in Touch
+
+Based in Kazanchis, Addis Ababa, Ethiopia. Connect with me on [LinkedIn](https://linkedin.com/in/emantggw), send an [email](mailto:emantweb@gmail.com), or call [+251 939 977 886](tel:+251939977886).
