@@ -72,19 +72,20 @@ const cvData = {
   "projects": [
     {
       "name": "Asayew | Telegram Advertising Marketplace",
-      "desc": "Architected a modular NestJS backend for a multi-tenant advertising marketplace. Uses Firestore transactions for wallet-based purchases, Redis caching and Bull jobs for automated ad publishing, pinning and expiry, with role-based access.",
+      "desc": "Architected a modular NestJS platform connecting advertisers and Telegram channel owners, with transactional wallet purchases, Redis caching and Bull jobs for automated publishing, pin scheduling and expiry. Built role-based Next.js dashboards in English and Amharic.",
       "stack": "NestJS · Firebase / Firestore · Redis · Bull · Telegraf · Next.js",
       "links": [
+        { "label": "asayew.com", "url": "https://asayew.com" },
         { "label": "Telegram Bot", "url": "https://t.me/asayew_bot" }
       ]
     },
     {
-      "name": "Josad: Job Aggregator Platform",
-      "desc": "Built a modular NestJS API and Python job pipeline for a platform serving 15k+ Telegram members. Aggregates and classifies jobs with SVM/BERT, then distributes posts through four Telegram bots using queued background processing.",
-      "stack": "NestJS · Python · Firebase / Firestore · Redis · BullMQ",
+      "name": "Josad | AI-Powered Job Discovery & Recruitment",
+      "desc": "Architected a modular NestJS platform serving a 15k+ Telegram community, with independent job ingestion and Python classification services. Supports employer posting, application tracking and candidate shortlisting through Next.js portals and Telegram bots.",
+      "stack": "NestJS · Python · Firestore · Redis · Bull · Next.js",
       "links": [
-        { "label": "Telegram Channel (15k+) ", "url": "https://t.me/josad_software" },
-        { "label": "Platform", "url": "https://josad.io" }
+        { "label": "josad.net", "url": "https://josad.net" },
+        { "label": "Telegram Community", "url": "https://t.me/josad_software" }
       ]
     },
     {
