@@ -51,9 +51,11 @@ Architected a modular NestJS backend with Firebase / Firestore, Redis caching, a
 - **Stack:** Flutter, Firebase, financial-provider APIs
 - **Explore:** [Google Play](https://play.google.com/store/apps/details?id=com.kachadfs.customer)
 
-### Berhan Financing
+### Berhan Derash (Loan App)
 
 **Mobile financing application** supporting cash loans, salary advances, and school loans.
+
+- **Explore:** [Google Play](https://play.google.com/store/apps/details?id=com.berhan.berhanfinancing)
 
 ### HuluBeje
 

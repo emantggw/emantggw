@@ -74,10 +74,12 @@ const cvData = {
 
   "projects": [
     {
-      "name": "Berhan Financing",
+      "name": "Berhan Derash (Loan App)",
       "desc": "Mobile financing application supporting cash loans, salary advances and school loans.",
       "stack": "Mobile Financing · Loan Application Flows",
-      "links": []
+      "links": [
+        { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.berhan.berhanfinancing" }
+      ]
     },
     {
       "name": "Kacha Mobile App",
