@@ -53,6 +53,8 @@ Architected a modular NestJS backend with Firebase / Firestore, Redis caching, a
 
 ### Berhan Derash (Loan App)
 
+<img src="assets/berhan_derash_logo.png" alt="Berhan Derash logo" width="64">
+
 **Mobile financing application** supporting cash loans, salary advances, and school loans.
 
 - **Explore:** [Google Play](https://play.google.com/store/apps/details?id=com.berhan.berhanfinancing)
